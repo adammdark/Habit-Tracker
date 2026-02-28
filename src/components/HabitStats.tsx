@@ -24,7 +24,7 @@ const HabitStats: FC<InputProps> = ({ getLongestStreak }) => {
             <Typography variant='h6' sx={{ mb: 2 }}>Habits stats</Typography>
             <Typography variant='body1'>Total Habits : {habits.length}</Typography>
             <Typography variant='body1'>Completed Today :{getCompletedToday()}</Typography>
-            <Typography variant='body1'>Longest Streak :{getLongestStreak()}</Typography>
+            <Typography variant='body1'>Longest Streak :{habits.length===0?'0':getLongestStreak()}</Typography>
         </Paper>
     )
 }
