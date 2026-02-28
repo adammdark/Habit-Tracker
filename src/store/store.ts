@@ -7,7 +7,6 @@ export interface Habit {
     name:string,
     frequency:'daily'|'weekly',
     completedDates:string[],
-    createdAt:string
 }
 
 interface HabitState{
