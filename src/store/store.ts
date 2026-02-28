@@ -5,9 +5,9 @@ import { persist,devtools } from "zustand/middleware";
 export interface Habit {
     id:string,
     name:string,
-    frequency:'daily'|'weeky',
+    frequency:'daily'|'weekly',
     completedDates:string[],
-    createdAt:string
+    createdAt:string,
 }
 
 interface HabitState{
@@ -29,7 +29,7 @@ const useHabitStore = create<HabitState>()(
                     name,
                     frequency,
                     completedDates:[],
-                    createdAt:new Date().toISOString,
+                    createdAt:new Date().toISOString(),
                   },
                 ],
             }
