@@ -5,7 +5,7 @@ import { persist,devtools } from "zustand/middleware";
 export interface Habit {
     id:string,
     name:string,
-    frequency:'daily'|'weeky',
+    frequency:'daily'|'weekly',
     completedDates:string[],
     createdAt:string
 }
