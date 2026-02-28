@@ -76,6 +76,11 @@ A streak is counted as the number of consecutive days a habit has been marked co
 
 ---
 
+## 🎥 Live Demo 
+
+To see the live demo please click [here](https://habit-tracker-eight-steel.vercel.app/)
+
+---
 
 ## 👨‍💻 Author
 
